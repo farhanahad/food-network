@@ -1,6 +1,11 @@
 body{
     color: #575757;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 .flexible-container{
@@ -85,14 +90,104 @@ h3{
    font-size: 40px;
 }
 
+.recipie-section{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 19px;
+}
+
+
+.main{
+
+	margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+	
+	 
+	
+    }
+
+.image img{
+  width: 100%;
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h4{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.pos{
+	margin-left: 13%;
+}
+
+
 footer{
     text-align: center;
     background-color: black;
     padding-top: 30px;
     padding-bottom: 50px;
 }
-.p-footer{
+footer p{
     font-size: 15px;
    
 
 }
+h5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.viewers{
+    align-items: center;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 40px gray;
+}
+.first{
+   text-align: center;
+    padding-left: 290px;
+}
+  
+   
+.f{
+  text-align: center;
+  padding-left: 30px;
+}
+.g{
+    text-align: center;
+    padding-left: 30px;
+}
+h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
